@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #8fdb5c, #2c3e50);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  margin: 10% auto 20px auto; /* Added 20px bottom margin */
+  background-color: #ffffff; /* White container background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  max-width: 500px;
+  /* Center the buttons */
+  text-align: center;
+}
+
+/* Style for the custom buttons */
+.custom-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 2px solid #6c757d; /* Gray border */
+  background-color: #6c757d; /* Gray background color */
+}
+
+/* Hover effect for the buttons */
+.custom-button:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000000; /* Black title color */
+}
+
+p {
+  font-size: 1.2em;
+  color: #555555; /* Medium gray paragraph color */
+}
+
+.links-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links-list li {
+  margin-bottom: 15px;
+}
+
+.links-list a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #6c757d;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: inline-block;
+}
+
+.links-list img {
+  vertical-align: middle; /* Align the logos vertically with the text */
+  margin-right: 10px; /* Add margin to the right side of each logo */
+}
+
+.links-list a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px; /* Reduced top margin */
+  padding: 10px 0; /* Reduced padding */
+}
+
+footer hr {
+  width: 50%;
+  border-color: #f0f0f0;
+  margin-top: 10px; /* Added top margin */
+}
+
+footer img {
+  width: 50px;
+  height: auto;
+}

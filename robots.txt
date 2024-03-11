@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /easteregg.html
+
+# TODO: Sitemap to be added later.
