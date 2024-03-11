@@ -11,7 +11,7 @@ body {
 
 .container {
   text-align: center;
-  margin: 10% auto 20px auto; /* Added 20px bottom margin */
+  margin: 5% auto 20px auto; /* Added 20px bottom margin */
   background-color: #ffffff; /* White container background */
   padding: 20px;
   border-radius: 10px;
