@@ -1,2 +1,2 @@
-# lancilloties.github.io
+# lancilloties.com
 My static website.
