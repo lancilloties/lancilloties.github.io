@@ -39,6 +39,16 @@ body {
   /* Gray background color */
 }
 
+.custom-button-donate {
+  background: #00684d;
+  background: -webkit-linear-gradient(top,transparent 0%,rgba(0,0,0,0.4) 100%), -webkit-linear-gradient(left,#00b586 0%,#00684d 50%,#00b586 100%);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0,0,0,0.4) 100%), linear-gradient(to right, lighten(#00684d, 15%) 0%, #00684d 50%, lighten(#00684d, 15%) 100%);
+  transition: all 800ms;
+  background-size: 200% 100%;
+  background-position: 0 0;
+  -webkit-transition: all 800ms;
+}
+
 .shares-list__list {
   display: flex;
   justify-content: space-between;
@@ -65,6 +75,10 @@ body {
 .custom-button:hover {
   background-color: #0056b3;
   /* Darker blue */
+}
+.custom-button-donate:hover {
+  /* Small shine when hovered. */
+  background-position: -100% 0;
 }
 
 h1 {
