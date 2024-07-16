@@ -49,28 +49,6 @@ body {
   -webkit-transition: all 800ms;
 }
 
-.shares-list__list {
-  display: flex;
-  justify-content: space-between;
-  /* Adjust alignment as needed */
-}
-
-.shares-list__item {
-  flex: 1;
-  /* Adjust spacing between buttons */
-}
-
-.shares-list-item {
-  display: flex;
-  justify-content: left;
-}
-
-.shares-list-item svg {
-  width: 2.5em;
-  /* Adjust icon size */
-  height: 2.5em;
-}
-
 /* Hover effect for the buttons */
 .custom-button:hover {
   background-color: #0056b3;
